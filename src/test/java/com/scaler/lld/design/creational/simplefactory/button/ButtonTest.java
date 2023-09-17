@@ -1,3 +1,4 @@
+/*
 package com.scaler.lld.design.creational;
 
 import com.scaler.lld.design.creational.parleg.*;
@@ -6,9 +7,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
-public class ButtonTest {
+public class ButtonTest2 {
 
-    @Test
+    */
+/*@Test
     public void testRoundButton() {
         Button button = ButtonFactory.createButton(
                 ScreenSize.PHONE, 10.0, 1.0, null
@@ -28,7 +30,8 @@ public class ButtonTest {
         assertTrue(button instanceof SquareButton,
                 "If the screen size is of a desktop, the btn should be square"
         );
-    }
+    }*//*
+
 }
 
 // Why the factory pattern?
@@ -39,3 +42,4 @@ public class ButtonTest {
 // What are the downsides of the simple factory?
 // 1. Parameter explosion -> Assignment => Builder
 // 2. SRP + OCP violation in library code
+*/

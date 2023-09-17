@@ -6,11 +6,10 @@ import java.util.Properties;
 
 public abstract class FileBasedConfigurationManager {
 
-    protected final Properties properties;
+    protected final Properties properties = new Properties();
+    //private FileBasedConfigurationManager instance;
 
-    public FileBasedConfigurationManager() {
-        this.properties = new Properties();
-    }
+    //private FileBasedConfigurationManager() {}
 
     public void load(String filePath) {
         try (FileInputStream fileInputStream = new FileInputStream(filePath)) {

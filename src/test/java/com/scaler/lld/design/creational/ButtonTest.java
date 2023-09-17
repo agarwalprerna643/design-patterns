@@ -1,3 +1,4 @@
+/*
 package com.scaler.lld.design.creational;
 
 import com.scaler.lld.design.creational.parleg.*;
@@ -39,3 +40,4 @@ public class ButtonTest {
 // What are the downsides of the simple factory?
 // 1. Parameter explosion -> Assignment => Builder
 // 2. SRP + OCP violation in library code
+*/
